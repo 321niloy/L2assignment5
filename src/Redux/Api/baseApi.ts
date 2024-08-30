@@ -7,7 +7,7 @@ export const baseApi = createApi({
   reducerPath: "baseApi",
   baseQuery: fetchBaseQuery({
     baseUrl:
-      "https://assignment3level2-cdbdcogi1-niloys-projects-0aab42c9.vercel.app/api",
+      "https://assignment3level2.vercel.app/api",
     prepareHeaders: (headers, { getState }) => {
       const token = (getState() as RootState).auth.token;
 
